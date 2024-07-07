@@ -1,9 +1,12 @@
-# Neural_Network_C
-implemented a Multi Layer Perceptron in C with user defined architecture feature. 
+# Inference at the Edge (C)
 
-Forward pass (Matrix multiplication) has been implemented on C. this allows us to run multiple trained neural nets on lower level of abstraction which can be mapped to hardware.
+Trained a simple network and infered it using C (enables memory control/compute over low power devices). 
 
+The following steps were followed: 
 
+1) train a MLP on MNIST dataset using Pytorch
+2) Build a inference engine (C) to infer the trained network
 
-1) NN.cpp is under development for backward stage.
+find the python script and C file containing the trainer and inference engine respectively. 
+
 
